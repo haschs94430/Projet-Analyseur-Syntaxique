@@ -1,0 +1,42 @@
+void main(void){
+	int i;
+	a = 5;
+	printf(a); //commentaire valide
+	
+	
+	for(a = fct(); a != 8;){
+	/*
+	Pas d'inc
+	*/
+		a = fct2(a + 1);
+	
+	}
+	
+}
+
+void test_pour_op(){
+		a + 	b;
+	a 
+	
+	+= 			b;
+	a - b;
+	a -= b;
+	a /		
+	
+		
+			b;
+	a /= b;
+	a  
+	
+% b																							;
+	a %= b;
+	a 
+	*
+	 b
+			;
+	a *= b;
+
+
+
+}
+

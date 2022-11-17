@@ -1,0 +1,6 @@
+int main(int argc, char argv){
+	char c;
+		
+	c = 'az'; /* 2 cara */
+}
+

@@ -1,0 +1,21 @@
+void main(void){
+	int mat[5][5];
+	int i,j,sum;
+	i = 0;
+	/*on immagine que mat à 
+	été initialisé*/
+	sum = 0;
+	while(i < 5){
+		j = 0;
+		while(j < 5){
+			print(mat[i][j]);
+			sum = sum + mat[i][j];
+		}
+	}
+	switch (sum){ // pour un fichier de test ça a du sens
+		case(1) : print(sum);
+		case(2) : print(mat[0][0]);
+		default : print(mat[i][j]);
+	}
+}
+

@@ -1,0 +1,14 @@
+void printString(char str[]){
+	int i;
+	
+	for(i = 0; str[i] != '\0'; i += 1){
+		print(str[i]);
+	}
+	
+}
+
+void main(){
+	//blabla
+	
+}
+

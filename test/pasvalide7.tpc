@@ -1,0 +1,16 @@
+void main(void){
+/*c'est pas 
+	bon ici   v // coucou */
+	int mat[5[]5]; // <- '['']'
+	int i,j;
+	i = 0;
+	/*on immagine que mat à 
+	été initialisé*/
+	while(i < 5){
+		j = 0;
+		while(j < 5){
+			print(mat[i][j]);
+		}
+	}
+}
+

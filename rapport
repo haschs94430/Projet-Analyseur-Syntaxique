@@ -1,0 +1,20 @@
+test/pasvalide1.tpc: 0
+test/pasvalide2.tpc: 0
+test/pasvalide3.tpc: 1
+test/pasvalide4.tpc: 0
+test/pasvalide5.tpc: 0
+test/pasvalide6.tpc: 1
+test/pasvalide7.tpc: 1
+test/pasvalide8.tpc: 0
+test/valide10.tpc: 0
+test/valide11.tpc: 0
+test/valide1.tpc: 0
+test/valide2.tpc: 0
+test/valide3.tpc: 0
+test/valide4.tpc: 0
+test/valide5.tpc: 0
+test/valide6.tpc: 0
+test/valide7.tpc: 0
+test/valide8.tpc: 0
+test/valide9.tpc: 0
+

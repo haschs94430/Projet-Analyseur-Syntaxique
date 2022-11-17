@@ -1,0 +1,25 @@
+void a(int i){
+	char c;
+	c = 'a';
+	if(i <= 0){
+		return;
+	}
+	print(c);
+	b(i-1);
+}
+
+void b(int i){
+	char c;
+	c = 'a';
+	if(i <= 0){
+		return;
+	}
+	print(c);
+	a(i-1);
+}
+
+int main(int argc){
+	a(8);
+	return 0;
+}
+

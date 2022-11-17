@@ -1,0 +1,10 @@
+void main(void){
+	int i;
+	char c;
+	
+	c= ''';
+	a = 5;
+	printf(else$);
+	fct();
+}
+

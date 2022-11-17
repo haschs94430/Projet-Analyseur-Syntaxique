@@ -1,0 +1,12 @@
+void main(void){
+char c;
+int i;
+
+c = 'c';
+while(c != '\0'){
+readc(c);
+}
+
+for( i = 0; i < 5; i = i + 1);
+}
+

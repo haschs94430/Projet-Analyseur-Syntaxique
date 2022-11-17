@@ -1,0 +1,110 @@
+void sub_crypto_switch_aux(char lettre){
+	switch(lettre){ 
+			case('a'): return 'e';
+			case('z'): return 'j';
+			case('e'): return 'p';
+			case('r'): return 'n';
+			case('t'): return 'y';
+			case('y'): return 't';
+			case('u'): return 'f';
+			case('i'): return 'r';
+			case('o'): return 'a';
+			case('p'): return 'm';
+			case('q'): return 'i';
+			case('s'): return 's';
+			case('d'): return 'u';
+			case('f'): return 'h';
+			case('g'): return 'l';
+			case('h'): return 'z';
+			case('j'): return 'c';
+			case('k'): return 'o';
+			case('l'): return 'i';
+			case('m'): return 'w';
+			case('w'): return 'k';
+			case('x'): return 'd';
+			case('c'): return 'x';
+			case('v'): return 'b';
+			case('b'): return 'v';
+			case('n'): return 'g';
+			default: return lettre;
+		}
+}
+
+void sub_crypto_switch(char texte[]){
+	int i;
+	for(i = 0; texte[i] != '\0'; i = i + 1){
+		switch(texte[i]){ 
+			case('a'): texte[i] =  'e'; break;
+			case('z'): texte[i] =  'j'; break;
+			case('e'): texte[i] =  'p'; break;
+			case('r'): texte[i] =  'n'; break;
+			case('t'): texte[i] =  'y'; break;
+			case('y'): texte[i] =  't'; break;
+			case('u'): texte[i] =  'f'; break;
+			case('i'): texte[i] =  'r'; break;
+			case('o'): texte[i] =  'a'; break;
+			case('p'): texte[i] =  'm'; break;
+			case('q'): texte[i] =  'i'; break;
+			case('s'): texte[i] =  's'; break;
+			case('d'): texte[i] =  'u'; break;
+			case('f'): texte[i] =  'h'; break;
+			case('g'): texte[i] =  'l'; break;
+			case('h'): texte[i] =  'z'; break;
+			case('j'): texte[i] =  'c'; break;
+			case('k'): texte[i] =  'o'; break;
+			case('l'): texte[i] =  'i'; break;
+			case('m'): texte[i] =  'w'; break;
+			case('w'): texte[i] =  'k'; break;
+			case('x'): texte[i] =  'd'; break;
+			case('c'): texte[i] =  'x'; break;
+			case('v'): texte[i] =  'b'; break;
+			case('b'): texte[i] =  'v'; break;
+			case('n'): texte[i] =  'g'; break;
+			default: return lettre;
+		}
+	}
+}
+
+void sub_crypto_switch_2(char texte[]){
+	int i;
+	for(i = 0; texte[i] != '\0'; i = i + 1){
+		texte[i] = sub_crypto_switch_aux(texte[i]);
+	}
+}
+
+void sub_crypto_value(char texte[]){
+	int i;
+	
+	for(i = 0; texte[i] != '\0'; i += 1){
+		texte[i] = value(texte[i]){ // switch is so 70s' 
+			'a': 'e';
+			'z': 'j';
+			'e': 'p';
+			'r': 'n';
+			't': 'y';
+			'y': 't';
+			'u': 'f';
+			'i': 'r';
+			'o': 'a';
+			'p': 'm';
+			'q': 'i';
+			's': 's';
+			'd': 'u';
+			'f': 'h';
+			'g': 'l';
+			'h': 'z';
+			'j': 'c';
+			'k': 'o';
+			'l': 'i';
+			'm': 'w';
+			'w': 'k';
+			'x': 'd';
+			'c': 'x';
+			'v': 'b';
+			'b': 'v';
+			'n': 'g';
+			default: texte[i];
+		};	// pas oublier le ';'
+	}
+}
+

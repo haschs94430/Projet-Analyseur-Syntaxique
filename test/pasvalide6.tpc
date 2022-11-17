@@ -1,0 +1,7 @@
+void main(void){
+	int i;
+	for(i = 0; i < 5; i++){ // pas de i++
+		print(i);
+	}
+}
+

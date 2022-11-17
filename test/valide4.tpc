@@ -1,0 +1,25 @@
+const i = 5;
+
+void main(void){
+	int ent;
+	
+	reade(ent);
+	
+	if(ent < i){
+		i = ent + i;
+	}
+	else{
+		i = i % ent;
+	}
+	print(i);
+	
+	do{
+		reade(ent);	
+	}while(ent != i);
+	do{
+		reade(ent);	
+	}													
+	
+while(ent != i);
+}
+
